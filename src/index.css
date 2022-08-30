@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+body {
+    background: #e2711d;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    color: #ffb347;
+}
+
+.form-container {
+    width: 360px;
+    background-color: #ffc971;
+    margin: auto;
+    box-shadow: 0 0 20px 0 #b54d03, 0 5px 5px 0 #b54d03;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #ff9505;
+    padding: 15px;
+    color: #8d3c02;
+    border-radius: 7px;
+}
+
+.form-field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+input {
+    background: #ffb627;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+
+button {
+    background: #f58f00;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:disabled {
+    cursor: default;
+}
